@@ -26,7 +26,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-950"
+      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-950 "
     >
       {/* Premium background elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -76,14 +76,14 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-6xl text-center px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl text-center px-4 sm:px-6 lg:px-8 mt-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mb-8"
         >
-          <div className="inline-flex items-center rounded-full bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 px-4 py-2 text-sm font-medium text-blue-700 dark:text-blue-300 mb-6 border border-blue-200/50 dark:border-blue-800/30 shadow-sm">
+          <div className="inline-flex items-center rounded-full bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 px-4 py-2 text-sm font-medium text-blue-700 dark:text-blue-300 mb-6 border border-blue-200/50 dark:border-blue-800/30 shadow-sm ">
             <Code size={14} className="mr-2" />
             <span>Full-Stack Developer</span>
             <motion.div
@@ -101,7 +101,7 @@ export default function Hero() {
         </motion.div>
 
         <motion.h1
-          className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4"
+          className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
@@ -160,8 +160,8 @@ export default function Hero() {
           <strong className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 font-semibold">
             Brightwell Dlamini
           </strong>
-          , a passionate software developer crafting exceptional digital
-          experiences that users{' '}
+          , a passionate Full-stack software developer crafting exceptional
+          digital experiences that users{' '}
           <span className="text-blue-600 dark:text-blue-400">love</span> and
           developers{' '}
           <span className="text-purple-600 dark:text-purple-400">admire</span>.

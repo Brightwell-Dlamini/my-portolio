@@ -84,7 +84,7 @@ const projectsData: Project[] = [
       'Docker',
     ],
     image: '/api/placeholder/600/400',
-    liveUrl: 'https://your-event-platform.vercel.app',
+    liveUrl: 'https://eswatinievents.vercel.app',
     githubUrl: 'https://github.com/yourusername/event-platform',
     category: 'Full Stack',
     completionDate: '2023-05-10',
